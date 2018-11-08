@@ -1,0 +1,56 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "question": "Nvidia&#039;s headquarters are based in which Silicon Valley city?",
+      "correct_answer": "d",
+      "answers": {
+        "a": "Palo Alto",
+        "b": "Cupertino",
+        "c": "Mountain View",
+        "d": "Santa Clara"
+      }
+    },
+
+    {
+      "question": "What was the name given to Android 4.3?",
+      "correct_answer": "b",
+      "answers": {
+        "a": "Lollipop",
+        "b": "Jelly Bean",
+        "c": "Froyo",
+        "d": "Nutella"
+      }
+    },
+    {
+      "question": "In the programming language &quot;Python&quot;, which of these statements would display the string &quot;Hello World&quot; correctly?",
+      "correct_answer": "c",
+      "answers": {
+        "a": "console.log(&quot;Hello World&quot;)",
+        "b": "echo &quot;Hello World&quot;",
+        "c": "print(&quot;Hello World&quot;)",
+        "d": "printf(&quot;Hello World&quot;)"
+      }
+    },
+    {
+      "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+      "correct_answer": "a",
+      "answers": {
+        "a": "&lt;marquee&gt;&lt;/marquee&gt;",
+        "b": "&lt;move&gt;&lt;/move&gt;",
+        "c": "&lt;slide&gt;&lt;/slide&gt;",
+        "d": "&lt;scroll&gt;&lt;/scroll&gt;"
+      }
+    },
+    {
+      "question": "The name of technology company HP stands for what?",
+      "correct_answer": "b",
+      "answers": {
+        "a": "Howard Packmann",
+        "b": "Hewlett-Packard",
+        "c": "Hellman-Pohl",
+        "d": "Husker-Pollosk"
+      }
+    }
+  ]
+}
