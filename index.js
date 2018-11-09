@@ -35,6 +35,11 @@ app.get("/blog", (req, res, next) => {
   res.sendFile(path.join(__dirname + "/public/pages/blog.html"));
 });
 
+app.get("/blog/:id", (req, res, next) => {
+  res.sendFile(path.join(__dirname + "/public/pages/blogsingle.html"));
+});
+
+
 app.get("/quiz-questions", (req, res, next) => {
   res.sendFile(path.join(__dirname + "/json/index.json"));
 });
@@ -46,6 +51,19 @@ app.get("/api/v1/categories", (req, res, next) => {
 app.get("/api/v1/posts", (req, res, next) => {
   res.json(blog);
 });
+
+app.get("/api/v1/post/:id", (req, res, next) => {
+  let post = {};
+  for (let i in blog.data) {
+    if (req.params.id == blog.data[i].id) {
+      post = blog.data[i];
+      break;
+    }
+  }
+  res.json(post);
+});
+
+
 
 app.post("/api/v1/createpost", (req, res, next) => {
   // console.log(req);
