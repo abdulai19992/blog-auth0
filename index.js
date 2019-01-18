@@ -78,7 +78,7 @@ app.post("/api/v1/createpost", (req, res, next) => {
 });
 
 // select the port in which your Node.js web app will run
-const port = 5000;
+const port = 8080;
 
 // then listen to the selected port
 app.listen(port, () => console.log(`Server is running on port ${port}`));
